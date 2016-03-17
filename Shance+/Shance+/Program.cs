@@ -10,10 +10,12 @@ namespace Shance_
     {
         static void Main(string[] args)
         {
+            Point p1 = new Point();
             int x1 = 1;
             int y1 = 3;
             char sym1 = '*';
             Draw(x1, y1, sym1);
+            Point p2 = new Point();
             int x2 = 4;
             int y2 = 5;
             char sym2 = '#';
